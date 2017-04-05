@@ -7,9 +7,9 @@ def subtract(num1, num2)
 end
 
 def sum(array)
-sum = 0
-  array.each do |num|
-    sum =+ num
+  total = 0
+  array.each do |number|
+    total += number
   end
-  sum
+  total
 end
